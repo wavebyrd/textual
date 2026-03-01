@@ -617,7 +617,6 @@ class DOMNode(MessagePump):
             component_styles = self._component_styles[name]
             assert component_styles.node is not None
             styles._update_node(component_styles.node)
-            # styles.node = component_styles.node
             styles.base.merge(component_styles.base)
             styles.inline.merge(component_styles.inline)
             styles._updates += 1

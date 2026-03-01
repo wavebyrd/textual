@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [8.0.1] - 2026-03-01
+
+### Fixed
+
+- `DirectoryTree` runs more operations in a thread to avoid micro-freezes
+
+### Changes
+
+- Some tweaks to garbage collection to reduce gc time
+
 ## [8.0.0] - 2026-02-16
 
 ### Added

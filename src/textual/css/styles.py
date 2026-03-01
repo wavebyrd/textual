@@ -1344,6 +1344,11 @@ class RenderStyles(StylesBase):
         self._gutter: tuple[int, Spacing] | None = None
 
     def _update_node(self, node: DOMNode) -> None:
+        """Update the associated DOM node.
+
+        Args:
+            node: New node for the styles.
+        """
         self._node = weakref.ref(node)
 
     def __eq__(self, other: object) -> bool:
