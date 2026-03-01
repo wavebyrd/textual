@@ -9,11 +9,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixed
 
-- `DirectoryTree` runs more operations in a thread to avoid micro-freezes
+- `DirectoryTree` runs more operations in a thread to avoid micro-freezes 
 
 ### Changes
 
-- Some tweaks to garbage collection to reduce gc time
+- Some tweaks to garbage collection to reduce gc time https://github.com/Textualize/textual/pull/6402
 
 ## [8.0.0] - 2026-02-16
 
