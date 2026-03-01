@@ -227,6 +227,7 @@ class MarkdownBlock(Static):
 
     @property
     def _markdown(self) -> Markdown:
+        """Resolve the weak ref to _markdown"""
         markdown = self._markdown_ref()
         assert markdown is not None
         return markdown

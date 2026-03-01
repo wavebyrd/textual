@@ -520,6 +520,7 @@ class StylesBase:
 
     @property
     def node(self) -> DOMNode | None:
+        """The DOM node the styles will be applied to, or `None` if it is not set."""
         return None
 
     def __textual_animation__(
@@ -1364,6 +1365,7 @@ class RenderStyles(StylesBase):
 
     @property
     def node(self) -> DOMNode | None:
+        """The DOM node the styles will be applied to, or `None` if it is not set."""
         return self._node()
 
     @property
